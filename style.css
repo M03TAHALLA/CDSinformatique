@@ -1,0 +1,602 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+header{
+    position: fixed;
+    top : 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0,5s;
+}
+.logo{
+    color:rgb(4, 62, 255);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration:none;
+    box-shadow:  20px 7px 30px #0011ff;
+}
+.logo span{
+    color: rgb(0, 0, 0);
+    box-shadow:20px 7px 30px rgb(0, 0, 0);
+}
+.navbar{
+    display : flex;
+    position: relative;
+}
+.navbar li{
+    list-style : none;
+}
+.navbar a{
+    color:rgb(255, 250, 250);
+    text-decoration: none;
+    margin-left:30px;
+    font-weight: 700;
+}
+.navbar a:hover{
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+}
+.btn-reser{
+    padding: 10px 20px;
+    background: rgba(233, 4, 4, 0.685);
+    margin-top: -10px;
+    text-transform: uppercase;
+
+}
+.btn-reser:hover{
+    background: #000000;
+    transition:ease-out;
+    letter-spacing: 0.5px;
+    transition: 00.5s;
+}
+header .navbar li a:hover{
+    color:#0011ff ;
+    border-bottom:2px solid rgb(0, 0, 0) ;
+}
+.bannier{
+    color: #fff;
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url(./smart-tech-and-iot-security-assessment-1.jpg);
+    background-size: cover;
+}
+.bannier .contenue{
+    max-width: 70%;
+    text-align: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+.bannier .contenue h2{
+    color:#fff;
+    font-size:3em;
+    text-transform: capitalize;
+}
+.contenue p:nth-child(2){
+    color: #fff;
+    font-size: 1.2em;
+}
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background:rgb(68, 63, 63);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left:10px; 
+}
+.btn1:hover{
+    letter-spacing: 4px;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.row .col50 h2{
+    margin-bottom: 20px;
+}
+.titre-text{
+    color:#ffffff;
+    font-size:2em;
+    font: weight 300px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.titre-text span{
+    color: rgb(2, 28, 255);
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style:inherit;
+}
+.text span{
+    color: rgb(2, 28, 255);
+    font-style:inherit;
+    text-transform: capitalize;
+}
+.row .col50 img{
+    height: 450px;
+    width: 600px;
+    position:relative;
+}
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    text-align: left;
+}
+.titre-text p{
+    font-size: 1em;
+}
+.apropos{
+    background-image: url(./nn.jpg);
+    background-size: cover;
+}
+.titre-text1 h3{
+    color:#000000;
+    font-size:1.5em;
+    text-transform: capitalize;
+    font-style: italic;
+    max-width: 100%;
+    text-align: center;
+}
+.titre-text1 p{
+    color: #ffffff;
+    text-align: center;
+    font-size:1.5em;
+}
+.EXPERT .titre-text1 p{
+    color: #000000;
+    text-align: center;
+    font-size:1.5em;
+}
+.menu{
+    background-image: url(./geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.btn2{
+    font-size: 1em;
+    color: #fff;
+    background:rgb(0, 0, 0);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left:10px; 
+    text-transform: capitalize;
+    box-shadow: 20px 7px 30px rgba(255, 249, 249, 0.836);;
+}
+.btn2:hover{
+    letter-spacing: 3px;
+}
+.titre-text1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    margin-top: -100px;
+}
+.menu .contenue{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.menu .contenue .box{
+    width: 263px;
+    margin-top: 15px;
+    border: 20px solid rgb(118, 118, 243);
+    box-shadow: 20px 7px 30px rgb(118, 118, 243); 
+    margin: 5px;
+}
+.menu .contenue .box:hover{
+    letter-spacing: 0.2px;
+    transition: 1s;
+    margin-bottom:3px; 
+}
+.text h3{
+    color: #000000;
+    align-items: center;
+    text-align: center;
+}
+.menu .contenue .box .imbox{
+    position: relative;
+    width:100%;
+    height:300px;
+}
+.menu .contenue .box .imbox img{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    align-content: center;
+}
+.EXPERT{
+    margin-top: -100px;
+}
+.EXPERT .contenue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.EXPERT .contenue .box{
+    width: 250px;
+    margin: 15px;
+}
+.EXPERT .contenue .box img{
+    position: relative;
+    width:100%;
+    height: 250px;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+.EXPERT .contenue .box{
+    width: 275px;
+    margin-top: 15px;
+    border: 20px solid rgb(118, 118, 243);
+    box-shadow: 20px 7px 30px rgb(118, 118, 243); 
+    margin: 5px;
+}
+.EXPERT .contenue .box:hover{
+    letter-spacing: 0.2px;
+    transition: 1s;
+    margin-bottom:3px; 
+}
+.EXPERT .contenue{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.text h4{
+    color: #ff0000;
+    align-items: center;
+    text-align: center;
+}
+.EXPERT .text p{
+    color: #000000;
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+
+}
+.EXPERT{
+    background-image: url(./back3.jpg);
+    background-size: cover;
+}
+.temoignage .contenue .box{
+    width: 215px;
+    margin-top: 15px;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 20px 7px 30px rgb(255, 255, 255); 
+    margin: 5px;
+}
+.BRA{
+    background-image: url(./world.jpg);
+    background-size:auto;
+}
+.BRA .contenue .box{
+    width: 215px;
+    margin-top: 15px;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 20px 7px 30px rgb(0, 0, 0); 
+    margin: 5px;
+}
+.temoignage{
+    background-image: url(./blue.jpg);
+    background-size: cover;
+}
+.temoignage .contenue{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.temoignage .contenue .box{
+    width: 400px;
+    margin: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 95px;
+}
+.BRA .contenue .box{
+    width: 340px;
+    margin: 20px;
+    background: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 95px;
+}
+.titre-text2 h4{
+    color:#fbff00;
+    font-size:1.5em;
+    text-transform: capitalize;
+    font-style: italic;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.titre-text2 p{
+    color: #ffffff;
+    text-align: center;
+    font-size:1.5em;
+}
+.titre-text2 span{
+    color: aqua;
+    font-style:inherit;
+    text-transform: capitalize;
+}
+.temoignage .contenue .box .imbox{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 30px;
+    overflow:hidden;
+}
+.temoignage .contenue .box .imbox img{
+    position: relative;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.BRA .contenue .box .imbox img{
+    position: relative;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.temoignage{
+    margin-top: -100px;
+}
+.BRA{
+    margin-top: -100px;
+}
+.temoignage .contenue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.BRA .contenue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.temoignage .contenue .box img{
+    position: relative;
+    width:100%;
+    height: 150px;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+.BRA .contenue .box img{
+    position: relative;
+    width:100%;
+    height: 150px;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+
+.temoignage .contenue .box:hover{
+    letter-spacing: 0.2px;
+    transition: 1s;
+    margin-bottom:3px; 
+}
+.BRA .contenue .box:hover{
+    letter-spacing: 0.2px;
+    transition: 1s;
+    margin-bottom:3px; 
+}
+.temoignage .contenue{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.BRA .contenue{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.text h4{
+    color: #ff0000;
+    align-items: center;
+    text-align: center;
+}
+.temoignage .text p{
+    color: #000000;
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+
+}
+.BRA .text p{
+    color: #000000;
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+
+}
+.CONTACTEZ-NOUS{
+    background-image:url(./BBBBB.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0);
+}
+.Form{
+    padding: 75px 50px;
+    background: rgb(77, 63, 223);
+    box-shadow: 5px 15px 50px rgb(232, 249, 6);
+    max-width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left:10%;
+}
+.Form .h3{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Form .h3{
+    color: #000000;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.Form .INPUT textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #000000;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.BTN5{
+    align-items: center;
+    padding: 10px 20px;
+    color: #fbff00;
+    text-align: center;
+    resize: horizontal;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.FIN p{
+    color: #000000;
+}
+.FIN img{
+    align-items: center;
+    position: relative;
+    height: 50px;
+    justify-content: center;
+}
+.FIN{
+    font: size 10px;
+    align-items: center;
+    display: flex;
+    padding: 50px 30px;
+    box-shadow: 5px 15px 50px rgb(29, 173, 183);
+    margin-top: 2px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(13, 200, 237);
+    border-radius: 400px;
+}
+.secf{
+    background-image: url(./ww.webp);
+}
+.Copyright p{
+    padding: 20px 40px;
+   border-top: 2px solid #000000;
+    color: #fdfdfd;
+    background: #000000;
+    align-items: center;
+    text-align: center;
+}
+.Copyright p:nth-child(1){
+    color: #555;
+
+}
+header.sticky{
+    background: #fdfdfd;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgb(0, 0, 0);
+    transition: 1s;
+    
+
+}
+header.sticky .navbar li a{
+    color: #0101ff;
+}
+header.sticky li a:hover{
+    color: #0011ff;
+    border-bottom: 2px solid #000000;
+
+}
